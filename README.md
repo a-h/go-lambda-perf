@@ -21,3 +21,11 @@ env: TIMEFMT=%mE
 ```
 zsh -c "time ./hello-world-cli"
 ```
+
+### lambda-deploy
+
+dir: cdk
+
+```
+cdk deploy --hotswap
+```
